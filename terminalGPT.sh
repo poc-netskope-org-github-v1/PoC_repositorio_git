@@ -20,7 +20,7 @@ RESET='\e[0m'
 send_message() {
     local message="$1"
     local model="gpt-3.5-turbo"
-    local api_key="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"
+    local api_key="sua-chave"
     # Enviar a mensagem para a API de chat
     curl -X POST "https://api.openai.com/v2/chat/completions" \
     -H "Authorization: Bearer $api_key" \
